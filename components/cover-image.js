@@ -2,7 +2,7 @@ import cn from 'classnames'
 import Link from 'next/link'
 import Image from 'next/image'
 
-export default function CoverImage({ title, src, slug, height, width }) {
+export default function CoverImage({ title, src, slug, height, width, baseDir }) {
   const image = (
     <Image
       src={src}
@@ -18,7 +18,7 @@ export default function CoverImage({ title, src, slug, height, width }) {
   return (
     <div className="sm:mx-0">
       {slug ? (
-        <Link as={`/posts/${slug}`} href="/posts/[slug]">
+        <Link as={`/${baseDir}/${slug}`} href={`/${baseDir}/[slug]`}>
           <a aria-label={title}>{image}</a>
         </Link>
       ) : (
