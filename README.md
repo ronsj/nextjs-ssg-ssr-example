@@ -1,4 +1,4 @@
-# A statically generated blog example using Next.js and Markdown
+# Next.js SSG and SSR Example
 
 This example showcases Next.js's [Static Generation](https://nextjs.org/docs/basic-features/data-fetching#getstaticprops-static-generation) and [Server-side Rendering](https://nextjs.org/docs/basic-features/data-fetching#getserversideprops-server-side-rendering) features using Markdown files as the data source.
 
@@ -8,13 +8,13 @@ To create the blog posts we use [`remark`](https://github.com/remarkjs/remark) a
 
 ## Demo
 
-<!-- [https://next-blog-starter.vercel.app/](https://next-blog-starter.vercel.app/) -->
+[https://nextjs-ssg-ssr-example.vercel.app/](https://nextjs-ssg-ssr-example.vercel.app/)
 
 ## Deploy your own
 
 Deploy the example using [Vercel](https://vercel.com):
 
-<!-- [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/blog-starter&project-name=blog-starter&repository-name=blog-starter) -->
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/ronsj/nextjs-ssg-ssr-exampler&project-name=nextjs-ssg-ssr-example&repository-name=nextjs-ssg-ssr-example)
 # Notes
 
 This example is based on the official `blog-starter` example. See the [repo](https://github.com/vercel/next.js/tree/canary/examples/blog-starter) for more details.
